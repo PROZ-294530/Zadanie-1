@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mlasynsk.calculator.controller.Controller">
+   <left>
+      <AnchorPane prefHeight="434.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="textField" layoutX="36.0" layoutY="40.0" prefHeight="57.0" prefWidth="371.0" />
+            <Button layoutX="327.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="+" />
+            <Button layoutX="333.0" layoutY="324.0" mnemonicParsing="false" onAction="#equals" prefHeight="81.0" prefWidth="60.0" text="=" />
+            <Button layoutX="333.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="*" />
+            <Button layoutX="329.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="-" />
+            <Button layoutX="227.0" layoutY="324.0" mnemonicParsing="false" onAction="#clear" prefHeight="25.0" prefWidth="60.0" text="C" />
+            <Button layoutX="135.0" layoutY="118.0" mnemonicParsing="false" onAction="#sqrt" prefHeight="25.0" prefWidth="60.0" text="sqrt" />
+            <Button layoutX="231.0" layoutY="118.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="\%" />
+            <Button layoutX="36.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="1" />
+            <Button layoutX="135.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="2" />
+            <Button layoutX="231.0" layoutY="167.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="3" />
+            <Button layoutX="36.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="4" />
+            <Button layoutX="132.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="5" />
+            <Button layoutX="231.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="6" />
+            <Button layoutX="39.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="7" />
+            <Button layoutX="135.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="8" />
+            <Button layoutX="228.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="9" />
+            <Button layoutX="39.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="." />
+            <Button layoutX="133.0" layoutY="324.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="0" />
+            <Button layoutX="335.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="60.0" text="/" />
+            <Button layoutX="36.0" layoutY="118.0" mnemonicParsing="false" onAction="#pow" prefHeight="25.0" prefWidth="60.0" text="^2" />
+            <Button layoutX="43.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="52.0" text="(" />
+            <Button layoutX="137.0" layoutY="379.0" mnemonicParsing="false" onAction="#handleRegularEvent" prefHeight="25.0" prefWidth="58.0" text=")" />
+            <Button layoutX="232.0" layoutY="379.0" mnemonicParsing="false" onAction="#deleteOneSign" prefHeight="25.0" prefWidth="54.0" text="&lt;x" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
